@@ -1,0 +1,27 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import "bootstrap/bootstrap",
+        "colors",
+        "header",
+        "home",
+        "post",
+        "footer",
+        "page",
+        "jumbo",
+        "variables";
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    background: #ECE9E6; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #ECE9E6 , #FFFFFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-bottom: 6rem;
+    font-family: $font-tufte;
+}

@@ -1,0 +1,15 @@
+@import "variables";
+
+.footer {
+    font-family: $font-system;
+    padding-top: 0.5rem;
+    border-top: 1px solid #aaa;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+}
+.footer--text {
+    color: $gray;
+}

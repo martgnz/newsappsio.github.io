@@ -1,0 +1,11 @@
+<header class="navbar m-y-1">
+    <a class="siteTitle" href="{{ site.baseurl }}/">{{ site.title }}</a>
+
+    <nav class="pull-xs-right">
+        {% for page in site.pages %}
+            {% if page.title %}
+            <a class="pageLink" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            {% endif %}
+        {% endfor %}
+    </nav>
+</header>

@@ -1,0 +1,50 @@
+@import "variables";
+
+.jumbotron {
+    border-radius: 0;
+    background-color: transparent;
+    height: 100vh;
+}
+.jumbotron--border {
+    border-top: 3px solid $brand-primary;
+    padding: 2rem 0 5rem 2rem;
+}
+.jumbotron--lead {
+    color: $brand-primary;
+    font-size: 3.5rem;
+    line-height: 6rem;
+}
+.jumbotron--text {
+    color: $brand-primary;
+    font-style: italic;
+    font-size: 2rem;
+    line-height: 2rem;
+}
+.jumbotron--paragraph {
+    margin-bottom: 0;
+}
+.contact {
+    margin-top: 4rem;
+    text-align: center;
+}
+.contactLink {
+    font-size: 1.5rem;
+    color: $brand-primary;
+    border-bottom: 1px solid $brand-primary;
+}
+.contactLink:hover {
+    color: $brand-primary;
+}
+.plus {
+    font-size: 60%;
+}
+
+// Medium devices (tablets, 48em and up)
+@media (min-width: 48em) {
+    .jumbotron {
+        height: 60vh;
+    }
+    .contact {
+        text-align: left;
+    }
+}
