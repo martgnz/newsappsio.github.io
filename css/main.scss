@@ -19,9 +19,7 @@ html {
     min-height: 100%;
 }
 body {
-    background: #ECE9E6; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #ECE9E6 , #FFFFFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: rgb(236, 233, 230); /* fallback for old browsers */
     margin-bottom: 6rem;
     font-family: $font-tufte;
 }

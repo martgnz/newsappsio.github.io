@@ -5,7 +5,7 @@
             {% for project in site.data.projects %}
             <div class="project m-b-3">
                 <h2 class="projectTitle">{{ project.name }}</h4>
-                <img class="img-fluid projectImg m-b-1" src="{{ project.img }}" alt="{{ project.name }}">
+                <img class="img-fluid projectImg m-b-1" data-img="{{ project.img }}" alt="{{ project.name }}">
                 <p class="projectDescription">{{ project.description }}</p>
                 <a href="{{ project.url }}" class="btn btn-primary"> Website </a>
                 <a href="{{ project.code }}" class="btn btn-primary"> Code </a>
