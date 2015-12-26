@@ -1,3 +1,10 @@
+- name: spam.js
+  url: http://datos.elespanol.com/elecciones-generales/resultados/congreso
+  code:
+  img: /img/project2.jpg
+  date: 24th December 2015
+  description: a simple map maker
+
 - name: Resultados 20D
   url: http://datos.elespanol.com/elecciones-generales/resultados/congreso
   code:

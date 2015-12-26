@@ -5,11 +5,13 @@
     background-color: transparent;
     height: 100vh;
     padding: 10rem 2rem;
+    margin-bottom: 0;
 }
 .jumbotron--border {
     border-top: 3px solid $brand-primary;
 }
 .jumbotron--lead {
+    font-weight: 700;
     color: $brand-primary;
     font-size: 3.5rem;
     line-height: 6rem;
@@ -30,7 +32,6 @@
 .contactLink {
     font-size: 1.5rem;
     color: $brand-primary;
-    border-bottom: 1px solid $brand-primary;
 }
 .contactLink:hover {
     color: $brand-primary;
@@ -42,7 +43,7 @@
 // Medium devices (tablets, 48em and up)
 @media (min-width: 48em) {
     .jumbotron {
-        height: 70vh;
+        height: 100vh;
     }
     .jumbotron--border {
         padding: 2rem 0 5rem 2rem;

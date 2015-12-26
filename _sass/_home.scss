@@ -10,7 +10,11 @@ a:hover {
 .wrap {
     width: 100%;
 }
+#home {
+    background: rgb(236, 233, 230); /* fallback for old browsers */
+}
 .sectionHeader {
+    padding-top: 2rem;
     color: $brand-primary;
     font-style: italic;
     font-size: 2rem;

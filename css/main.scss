@@ -12,6 +12,7 @@
         "footer",
         "page",
         "jumbo",
+        "projects",
         "variables";
 
 html {
@@ -19,7 +20,6 @@ html {
     min-height: 100%;
 }
 body {
-    background: rgb(236, 233, 230); /* fallback for old browsers */
     margin-bottom: 6rem;
     font-family: $font-tufte;
 }
