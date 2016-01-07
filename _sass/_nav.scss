@@ -14,8 +14,12 @@
     color: $brand-primary;
     font-size: 2.5rem;
 }
+.contact {
+    font-family: $font-system;
+}
 .contactLink {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: 300;
     color: $brand-primary;
 }
 .contactLink:hover {

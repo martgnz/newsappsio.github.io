@@ -12,12 +12,21 @@ img {
     opacity: 0;
     transition: opacity .3s ease-in;
 }
+.btn {
+    font-family: $font-system;
+}
+.container {
+    padding: 0 2rem;
+}
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
 .sectionHeader {
     color: $brand-primary;
-    font-style: italic;
+    font-family: $font-system;
     font-size: 2rem;
-    margin: auto;
-    text-align: center;
+    font-weight: 300;
     padding-top: 2rem;
     padding-bottom: 0.5rem;
     margin-bottom: 2rem;
@@ -28,22 +37,4 @@ img {
     font-size: 2rem;
     list-style: none;
     padding: 0;
-}
-.btn {
-    font-family: $font-system;
-}
-.container {
-    max-width: none;
-    padding: 0 2rem;
-}
-.col-centered {
-    float: none;
-    margin: 0 auto;
-}
-
-// Medium devices (tablets, 48em and up)
-@media (min-width: $sm) {
-    .sectionHeader {
-        max-width: 20%;
-    }
 }
