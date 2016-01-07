@@ -26,11 +26,12 @@
     margin: 0 auto;
     float: none;
     width: 100%;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
 }
 .svg--url,
 .svg--code,
-.svg--page {
+.svg--page,
+.svg--twitter {
     height: 1.2rem;
 }
 .svg--code {
@@ -38,6 +39,9 @@
 }
 .svg--page {
     margin-right: 0.2rem;
+}
+.martgnz a:nth-child(3) svg {
+    margin-left: 0.3rem;
 }
 .projectClient {
     font-family: $font-system;

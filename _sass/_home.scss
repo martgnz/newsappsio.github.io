@@ -19,12 +19,24 @@ img {
 .container {
     padding: 0 2rem;
 }
+.col-centered-team {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
 .col-centered {
     float: none;
     margin: 0 auto;
 }
+.row-centered {
+    text-align:center;
+}
 .sectionHeader {
     color: $brand-primary;
+    text-align: center;
     font-family: $font-system;
     font-size: 2rem;
     font-weight: 300;
