@@ -29,11 +29,15 @@
     margin-bottom: 1rem;
 }
 .svg--url,
-.svg--code {
+.svg--code,
+.svg--page {
     height: 1.2rem;
 }
 .svg--code {
     margin-right: 0.5rem;
+}
+.svg--page {
+    margin-right: 0.2rem;
 }
 .projectClient {
     font-family: $font-system;

@@ -1,5 +1,5 @@
 - name: spam.js
-  client: Open source
+  client: <a href="https://github.com/newsappsio/spam">Open source</a>
   page: /spamjs/
   code: newsappsio/spam
   date: 24th December 2015
@@ -30,7 +30,7 @@
   url: http://datos.elespanol.com/elecciones-generales/resultados/congreso
   date: 20th December 2015
   description: >
-    Custom webapp for EL ESPAÑOL to host the live results of the Spanish elections. <br />
+    Custom webapp for <a href="http://www.elespanol.com">EL ESPAÑOL</a> to host the live results of the Spanish elections. <br />
     Effort was put onto the loading speed and the map design.
   showcase: >
     <div class="row collage">

@@ -3,10 +3,11 @@
 .wrap {
     width: 100%;
 }
-a,
-a:hover {
-    color: $body-color;
+a:hover,
+a:active,
+a:focus {
     text-decoration: none;
+    transition: color .2s ease-in;
 }
 img {
     opacity: 0;
