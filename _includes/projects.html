@@ -1,35 +1,23 @@
 <section id="projects">
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
                 <h2 class="sectionHeader">Projects</h1>
-                <div class="projectList">
+                <div class="projects">
                     {% for project in site.data.projects %}
                     <div class="project m-b-3">
-                        <a href="{{ project.post }}"><h2 class="projectTitle">{{ project.name }}</h2></a>
-                        <small class="projectDate text-muted">{{ project.date }}</small>
-                        <div class="row">
-                            <div class="col-sm-8">
-                                <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="{{ project.img }}" alt="{{ project.name }}">
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-4">
-                                    <div class="col-xs-12">
-                                        <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="{{ project.img }}" alt="{{ project.name }}">
-                                    </div>
-                                    <div class="col-xs-12">
-                                        <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="{{ project.img }}" alt="{{ project.name }}">
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="projectMeta">
+                            <h2 class="projectTitle"><a href="{{ project.post }}">{{ project.name }}</a></h2>
+                            <small class="projectDate text-muted">{{ project.date }}</small>
                         </div>
+                        {{ project.showcase }}
                         <p class="projectDescription">{{ project.description }}</p>
-                        <a href="{{ project.url }}" class="btn btn-primary"> Website </a>
-                        <a href="{{ project.code }}" class="btn btn-primary"> Code </a>
+                        <div class="center-block text-xs-center">
+                            <a href="{{ project.url }}" class="btn btn-sm btn-secondary"> Website </a>
+                            <a href="{{ project.code }}" class="btn btn-sm btn-secondary"> Code </a>
+                        </div>
                     </div>
                     {% endfor %}
                 </div>
-            </div>
         </div>
     </div>
 </section>

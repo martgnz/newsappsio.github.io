@@ -2,14 +2,48 @@
   post: /spamjs/
   url: http://datos.elespanol.com/elecciones-generales/resultados/congreso
   code:
-  img: /img/project2.jpg
+  img1: /img/project3.jpg
+  img2: /img/project2.jpg
+  img3: /img/project1.jpg
   date: 24th December 2015
+  showcase: >
+    <div class="row">
+        <div class="col-sm-8">
+            <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="/img/project3.jpg" alt="spam.js">
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="col-xs-12">
+                    <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="/img/project2.jpg" alt="spam.js"">
+                </div>
+                <div class="col-xs-12">
+                    <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="/img/project1.jpg" alt="spam.js"">
+                </div>
+            </div>
+        </div>
+    </div>
   description: a simple map maker
 
 - name: Resultados 20D
   post: /spanish-general-elections/
   url: http://datos.elespanol.com/elecciones-generales/resultados/congreso
-  code:
-  img: /img/project1.jpg
+  showcase: >
+    <div class="row">
+        <div class="col-sm-6">
+            <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="/img/project3.jpg" alt="spam.js">
+        </div>
+        <div class="col-sm-6">
+            <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="/img/project2.jpg" alt="spam.js">
+        </div>
+        <div class="col-sm-6">
+            <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="/img/project1.jpg" alt="spam.js">
+        </div>
+        <div class="col-sm-6">
+            <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="/img/project3.jpg" alt="spam.js">
+        </div>
+    </div>
+  img1: /img/project1.jpg
+  img2: /img/project2.jpg
+  img3: /img/project3.jpg
   date: 20th December 2015
   description: Spanish general elections

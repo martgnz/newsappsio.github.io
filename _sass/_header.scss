@@ -1,5 +1,37 @@
 @import "variables";
 
-.navbar {
+.header {
+    border-radius: 0;
+    padding: 2rem;
+    padding-top: 1rem;
+    margin-bottom: 0;
+    border-top: 3px solid $brand-primary;
+    text-align: center;
+}
+.header--banner {
+    display: inline-block;
+    font-weight: 700;
+    color: $brand-primary;
+    font-size: 2.5rem;
+}
+.contact {
     font-family: $font-system;
+}
+.contactLink {
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: $brand-primary;
+}
+.contactLink:hover,
+.contactLink:active,
+.contactLink:focus {
+    color: $brand-primary;
+    text-decoration: none;
+}
+
+// Medium devices (tablets, 48em and up)
+@media (min-width: $sm) {
+    .header {
+        text-align: left;
+    }
 }
