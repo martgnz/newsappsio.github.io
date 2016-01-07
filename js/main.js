@@ -1,8 +1,3 @@
-// wow config
-wow = new WOW({ boxClass: 'scroll', animateClass: 'animated', offset: 0, mobile: false, live: true })
-
-// initiate wow
-wow.init()
 
 // lazyload
 $("img").unveil(200, function() {
@@ -11,6 +6,7 @@ $("img").unveil(200, function() {
   });
 });
 
+// anchor scroll
 $(function() {
   $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
