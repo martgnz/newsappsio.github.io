@@ -1,5 +1,11 @@
 @import "variables";
 
+.project {
+    margin-bottom: 5rem;
+}
+.collage {
+    margin-bottom: 0.5rem;
+}
 .projectTitle,
 .projectDate {
     font-family: $font-system;
@@ -9,4 +15,37 @@
 }
 .projectMeta {
     margin-bottom: 0.5rem;
+}
+.projectDescription {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    text-align: center;
+    margin: 0 auto;
+    float: none;
+    width: 100%;
+}
+.svg--url,
+.svg--code {
+    height: 1.2rem;
+}
+.svg--code {
+    margin-right: 0.5rem;
+}
+.projectClient {
+    font-family: $font-system;
+    text-transform: uppercase;
+}
+.projectClient a:hover,
+.projectClient a:focus,
+.projectClient a:active {
+    text-decoration: none;
+}
+
+// Medium devices (tablets, 48em and up)
+@media (min-width: $sm) {
+    .projectDescription {
+        font-size: 1.5rem;
+        line-height: 1.9rem;
+        width: 80%;
+    }
 }

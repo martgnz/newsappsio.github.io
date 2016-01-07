@@ -7,18 +7,6 @@
 .interactiveAbout--headline {
     font-size: 1.4rem;
 }
-svg {
-    height: 4rem;
-    overflow: visible !important;
-}
-line,
-.arrow {
-    fill: none;
-    stroke: $brand-primary;
-}
-.arrowAbout--marker {
-    fill: $brand-primary;
-}
 
 // Medium devices (tablets, 48em and up)
 @media (min-width: $sm) {

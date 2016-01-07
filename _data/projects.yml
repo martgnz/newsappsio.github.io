@@ -1,13 +1,13 @@
 - name: spam.js
-  post: /spamjs/
-  url: http://datos.elespanol.com/elecciones-generales/resultados/congreso
-  code:
-  img1: /img/project3.jpg
-  img2: /img/project2.jpg
-  img3: /img/project1.jpg
+  client: Open source
+  page: /spamjs/
+  code: newsappsio/spam
   date: 24th December 2015
+  description: >
+    <i>Unleash the cartographical power of D3</i>. <br />
+    Create complex maps within minutes with SVG and canvas.
   showcase: >
-    <div class="row">
+    <div class="row collage">
         <div class="col-sm-8">
             <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="/img/project3.jpg" alt="spam.js">
         </div>
@@ -22,13 +22,17 @@
             </div>
         </div>
     </div>
-  description: a simple map maker
 
-- name: Resultados 20D
-  post: /spanish-general-elections/
+- name: Spanish General Elections Results
+  client: <a href="http://www.elespanol.com">EL ESPAÑOL</a>
+  page: /spanish-general-elections/
   url: http://datos.elespanol.com/elecciones-generales/resultados/congreso
+  date: 20th December 2015
+  description: >
+    Custom webapp for EL ESPAÑOL to host the live results of the Spanish elections. <br />
+    Effort was put onto the loading speed and the map design.
   showcase: >
-    <div class="row">
+    <div class="row collage">
         <div class="col-sm-6">
             <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="/img/project3.jpg" alt="spam.js">
         </div>
@@ -42,8 +46,3 @@
             <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="/img/project3.jpg" alt="spam.js">
         </div>
     </div>
-  img1: /img/project1.jpg
-  img2: /img/project2.jpg
-  img3: /img/project3.jpg
-  date: 20th December 2015
-  description: Spanish general elections
