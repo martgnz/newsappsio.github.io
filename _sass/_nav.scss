@@ -1,27 +1,17 @@
 @import "variables";
 
-.jumbotron {
+.navigation {
     border-radius: 0;
-    background-color: transparent;
     padding: 2rem;
     padding-top: 1rem;
     margin-bottom: 0;
     border-top: 3px solid $brand-primary;
 }
-.jumbotron--lead {
+.navigation--lead {
     display: inline-block;
     font-weight: 700;
     color: $brand-primary;
     font-size: 2.5rem;
-}
-.jumbotron--text {
-    color: $brand-primary;
-    font-style: italic;
-    font-size: 2rem;
-    line-height: 2rem;
-}
-.jumbotron--paragraph {
-    margin-bottom: 0;
 }
 .contact {
     float: right;
@@ -33,14 +23,4 @@
 }
 .contactLink:hover {
     color: $brand-primary;
-}
-.plus {
-    font-size: 60%;
-}
-
-// Medium devices (tablets, 48em and up)
-@media (min-width: 48em) {
-    .jumbotron--border {
-        padding: 2rem 0 5rem 2rem;
-    }
 }
