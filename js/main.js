@@ -5,14 +5,10 @@ wow = new WOW({ boxClass: 'scroll', animateClass: 'animated', offset: 0, mobile:
 wow.init()
 
 // lazyload
-var layzr = new Layzr({
-  selector: '[data-img]',
-  attr: 'data-img',
-  retinaAttr: 'data-img-retina',
-  bgAttr: 'data-img-bg',
-  hiddenAttr: 'data-img-hidden',
-  threshold: 0,
-  callback: null
+$("img").unveil(200, function() {
+  $(this).load(function() {
+    this.style.opacity = 1;
+  });
 });
 
 $(function() {

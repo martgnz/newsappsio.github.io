@@ -6,7 +6,7 @@
                 {% for member in site.data.members %}
                 <div class="member m-b-3 col-md-6">
                     <h2 class="memberTitle">{{ member.name }}</h4>
-                    <img class="img-fluid memberImg m-b-1" data-img="{{ member.img }}" alt="{{ member.name }}">
+                    <img class="img-fluid memberImg m-b-1" data-src="{{ member.img }}" alt="{{ member.name }}">
                     <p class="memberDescription">{{ member.description }}</p>
                     <a href="{{ member.website }}" class="btn btn-primary"> Website </a>
                     <a href="https://github.com/{{ member.github }}" class="btn btn-primary"> Code </a>

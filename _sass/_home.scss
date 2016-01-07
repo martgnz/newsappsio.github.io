@@ -7,6 +7,10 @@ a:hover {
     color: $body-color;
     text-decoration: none;
 }
+img {
+    opacity: 0;
+    transition: opacity .3s ease-in;
+}
 .wrap {
     width: 100%;
 }
