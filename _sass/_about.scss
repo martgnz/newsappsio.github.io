@@ -21,7 +21,7 @@ line,
 }
 
 // Medium devices (tablets, 48em and up)
-@media (min-width: 48em) {
+@media (min-width: $sm) {
     .interactiveAbout {
         width: 80%;
         margin-top: 5rem;
