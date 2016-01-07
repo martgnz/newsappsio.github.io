@@ -1,6 +1,5 @@
 - name: spam.js
   client: <a href="https://github.com/newsappsio/spam">Open source</a>
-  page: /spamjs/
   code: newsappsio/spam
   date: 24th December 2015
   separator: true
