@@ -27,7 +27,10 @@
                                 </div>
                             </div>
                             {{ project.showcase }}
-                            <p class="projectDescription m-b-2">{{ project.description }}</p>
+                            <p class="projectDescription">{{ project.description }}</p>
+                            {% if project.separator %}
+                                <hr class="separator"></hr>
+                            {% endif %}
                         </div>
                     {% endfor %}
                 </div>

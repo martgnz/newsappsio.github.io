@@ -3,6 +3,7 @@
   page: /spamjs/
   code: newsappsio/spam
   date: 24th December 2015
+  separator: true
   description: >
     <i>Unleash the cartographical power of D3</i>. <br />
     Create complex maps within minutes with SVG and canvas.

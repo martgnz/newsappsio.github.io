@@ -1,7 +1,10 @@
 @import "variables";
 
-.project {
+.project:nth-child(1) {
     margin-bottom: 5rem;
+}
+.project:nth-child(2) {
+    margin-top: 6rem;
 }
 .collage {
     margin-bottom: 0.5rem;
@@ -23,6 +26,7 @@
     margin: 0 auto;
     float: none;
     width: 100%;
+    margin-bottom: 1rem;
 }
 .svg--url,
 .svg--code {
@@ -39,6 +43,16 @@
 .projectClient a:focus,
 .projectClient a:active {
     text-decoration: none;
+}
+.separator {
+    border-top: none;
+    margin: 0;
+    text-align: center;
+}
+.separator::before {
+    content: "···";
+    font-size: 3rem;
+    margin-top: 0;
 }
 
 // Medium devices (tablets, 48em and up)
