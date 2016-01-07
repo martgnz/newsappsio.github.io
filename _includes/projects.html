@@ -7,6 +7,7 @@
                     {% for project in site.data.projects %}
                     <div class="project m-b-3">
                         <a href="{{ project.post }}"><h2 class="projectTitle">{{ project.name }}</h2></a>
+                        <small class="projectDate text-muted">{{ project.date }}</small>
                         <div class="row">
                             <div class="col-sm-8">
                                 <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="{{ project.img }}" alt="{{ project.name }}">
@@ -25,7 +26,6 @@
                         <p class="projectDescription">{{ project.description }}</p>
                         <a href="{{ project.url }}" class="btn btn-primary"> Website </a>
                         <a href="{{ project.code }}" class="btn btn-primary"> Code </a>
-                        <p><small class="text-muted">{{ project.date }}</small></p>
                     </div>
                     {% endfor %}
                 </div>

@@ -1,11 +1,7 @@
-<header class="navbar m-y-1">
-    <a class="siteTitle" href="{{ site.baseurl }}/">{{ site.title }}</a>
-
+<header class="navigation">
+    <a href="/" role="banner"><h1 class="navigation--lead">newsapps.io</h1></a>
     <nav class="pull-xs-right">
-        {% for page in site.pages %}
-            {% if page.title %}
-            <a class="pageLink" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-            {% endif %}
-        {% endfor %}
+        <a class="contactLink" href="#projects">projects</a> /
+        <a class="contactLink" href="#team">team</a>
     </nav>
 </header>
