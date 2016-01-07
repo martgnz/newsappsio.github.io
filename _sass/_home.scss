@@ -14,9 +14,6 @@ img {
 .wrap {
     width: 100%;
 }
-#home {
-    background: rgb(236, 233, 230); /* fallback for old browsers */
-}
 .sectionHeader {
     padding-top: 2rem;
     color: $brand-primary;
@@ -41,4 +38,8 @@ img {
 .container {
     max-width: none;
     padding: 0 2rem;
+}
+.col-centered {
+    float: none;
+    margin: 0 auto;
 }
