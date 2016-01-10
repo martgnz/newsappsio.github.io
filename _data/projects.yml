@@ -29,8 +29,8 @@
   url: http://datos.elespanol.com/elecciones-generales/resultados/congreso
   date: 20th December 2015
   description: >
-    Custom webapp for <a href="http://www.elespanol.com">EL ESPAÑOL</a> to host the live results of the Spanish elections. <br />
-    Effort was put onto the loading speed and the map design.
+    Custom web app for <a href="http://www.elespanol.com">EL ESPAÑOL</a> to host the live results of the Spanish elections. <br />
+    We iterated on the map design and a simple interface.
   showcase: >
     <div class="row collage">
         <div class="col-sm-6">
