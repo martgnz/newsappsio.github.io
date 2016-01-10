@@ -18,7 +18,7 @@
     font-family: $font-system;
 }
 .contactLink {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 300;
     color: $brand-primary;
 }
@@ -33,5 +33,8 @@
 @media (min-width: $sm) {
     .header {
         text-align: left;
+    }
+    .contact {
+        margin-top: 0.5rem;
     }
 }

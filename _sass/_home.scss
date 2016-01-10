@@ -19,14 +19,6 @@ img {
 .container {
     padding: 0 2rem;
 }
-.col-centered-team {
-    display:inline-block;
-    float:none;
-    /* reset the text-align */
-    text-align:left;
-    /* inline-block space fix */
-    margin-right:-4px;
-}
 .col-centered {
     float: none;
     margin: 0 auto;
@@ -38,7 +30,9 @@ img {
     color: $brand-primary;
     text-align: center;
     font-family: $font-system;
-    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    font-size: 1.2rem;
     font-weight: 300;
     padding-top: 2rem;
     padding-bottom: 0.5rem;
