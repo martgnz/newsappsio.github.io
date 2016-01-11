@@ -21,16 +21,18 @@ img {
     text-align: center;
 }
 .sectionHeader {
+    max-width: none;
+}
+.sectionHeader--text {
     color: $brand-primary;
-    text-align: center;
     font-family: $font-system;
+    text-align: center;
     text-transform: uppercase;
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.2rem;
     font-size: 1.2rem;
     font-weight: 300;
-    padding-top: 2rem;
     padding-bottom: 0.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     border-bottom: 1px solid $brand-primary;
 }
 .postList {
@@ -38,4 +40,11 @@ img {
     font-size: 2rem;
     list-style: none;
     padding: 0;
+}
+
+// Medium devices (tablets, 48em and up)
+@media (min-width: $sm) {
+    .sectionHeader {
+        max-width: 18%;
+    }
 }

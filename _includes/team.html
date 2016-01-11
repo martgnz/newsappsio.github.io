@@ -1,8 +1,10 @@
-<section id="team" class="row row-centered">
+<section id="team" class="row row-centered m-t-1">
     <div class="col-md-12">
-        <h2 class="sectionHeader">Team</h2>
+        <div class="center-block sectionHeader m-b-3">
+            <h2 class="sectionHeader--text">Team</h2>
+        </div>
         {% for member in site.data.team %}
-        <div class="col-md-3 col-centered-team member m-b-3 {{ member.twitter }}">
+        <div class="col-xs-6 col-lg-3 col-centered-team member m-b-3 {{ member.twitter }}">
             <h3 class="memberTitle">{{ member.name }}</h3>
             <img class="img-fluid memberImg m-b-1" data-src="{{ member.img }}" alt="{{ member.name }}">
             <p class="text-xs-center memberDescription">{{ member.description }}</p>
