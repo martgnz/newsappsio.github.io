@@ -11,14 +11,12 @@
         <div class="col-sm-8">
             <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="/img/project3.jpg" alt="spam.js">
         </div>
-        <div class="row">
-            <div class="col-sm-4">
-                <div class="col-xs-12">
-                    <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="/img/project2.jpg" alt="spam.js"">
-                </div>
-                <div class="col-xs-12">
-                    <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="/img/project1.jpg" alt="spam.js"">
-                </div>
+        <div class="col-sm-4 u-zeroPadding">
+            <div class="col-xs-12">
+                <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="/img/project2.jpg" alt="spam.js"">
+            </div>
+            <div class="col-xs-12">
+                <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="/img/project1.jpg" alt="spam.js"">
             </div>
         </div>
     </div>

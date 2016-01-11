@@ -1,8 +1,5 @@
 @import "variables";
 
-.wrap {
-    width: 100%;
-}
 a:hover,
 a:active,
 a:focus {
@@ -16,15 +13,12 @@ img {
 .btn {
     font-family: $font-system;
 }
-.container {
-    padding: 0 2rem;
-}
 .col-centered {
     float: none;
     margin: 0 auto;
 }
 .row-centered {
-    text-align:center;
+    text-align: center;
 }
 .sectionHeader {
     color: $brand-primary;
