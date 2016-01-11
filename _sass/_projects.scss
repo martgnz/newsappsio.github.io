@@ -64,6 +64,7 @@
 }
 .separator {
     margin: 0;
+    margin-top: 2rem;
     border-top: none;
     text-align: center;
 }
@@ -71,7 +72,6 @@
     content: "···";
     color: $brand-primary;
     font-size: 3rem;
-    margin-top: 0;
 }
 
 // Medium devices (tablets, 48em and up)
