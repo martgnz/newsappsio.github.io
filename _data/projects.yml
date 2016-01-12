@@ -21,13 +21,13 @@
         </div>
     </div>
 
-- name: Spanish General Elections Results
+- name: Spain General Election Results
   client: <a href="http://www.elespanol.com">EL ESPAÑOL</a>
-  page: /spanish-general-elections/
+  page: /spain-general-election-results/
   url: http://datos.elespanol.com/elecciones-generales/resultados/congreso
   date: 20th December 2015
   description: >
-    Custom web app for <a href="http://www.elespanol.com">EL ESPAÑOL</a> to host the live results of the Spanish elections. <br />
+    Custom web app for <a href="http://www.elespanol.com">EL ESPAÑOL</a> to host the live results of the Spain general elections. <br />
     We iterated on the map design and a simple interface.
   showcase: >
     <div class="row collage">

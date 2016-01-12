@@ -1,0 +1,12 @@
+@import "variables";
+@import "colors";
+
+.pageTitle {
+    font-family: $font-system;
+}
+.pageArticle {
+    margin-bottom: 4rem;
+}
+.pageArticle p {
+    font-size: 1.2rem;
+}
