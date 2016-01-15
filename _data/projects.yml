@@ -5,7 +5,7 @@
   date: 20th December 2015
   separator: true
   description: >
-    Carefully designed, this is our best newsapp to date. <br />
+    Carefully designed, we integrated labels and highways on the map. <br />
     <i>Stack: d3.js, Canvas, Protobuf, TopoJSON and Bootstrap.</i>
   showcase: >
     <div class="row collage">
