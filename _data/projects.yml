@@ -26,6 +26,56 @@
   page: /spain-general-election-results/
   url: http://datos.elespanol.com/elecciones-generales/resultados/congreso
   date: 20th December 2015
+  separator: true
+  description: >
+    Custom web app for <a href="http://www.elespanol.com">EL ESPAÑOL</a> to host the live results of the Spain general elections. <br />
+    We iterated on the map design and a simple interface.
+  showcase: >
+    <div class="row collage">
+        <div class="col-sm-6">
+            <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="/img/project3.jpg" alt="spam.js">
+        </div>
+        <div class="col-sm-6">
+            <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="/img/project2.jpg" alt="spam.js">
+        </div>
+        <div class="col-sm-6">
+            <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="/img/project1.jpg" alt="spam.js">
+        </div>
+        <div class="col-sm-6">
+            <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="/img/project3.jpg" alt="spam.js">
+        </div>
+    </div>
+
+- name: Catalan Election Results
+  client: <a href="http://www.elespanol.com">EL ESPAÑOL</a>
+  page: /spain-general-election-results/
+  url: http://datos.elespanol.com/elecciones-generales/resultados/congreso
+  date: 27th September 2015
+  separator: true
+  description: >
+    Custom web app for <a href="http://www.elespanol.com">EL ESPAÑOL</a> to host the live results of the Spain general elections. <br />
+    We iterated on the map design and a simple interface.
+  showcase: >
+    <div class="row collage">
+        <div class="col-sm-6">
+            <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="/img/project3.jpg" alt="spam.js">
+        </div>
+        <div class="col-sm-6">
+            <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="/img/project2.jpg" alt="spam.js">
+        </div>
+        <div class="col-sm-6">
+            <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="/img/project1.jpg" alt="spam.js">
+        </div>
+        <div class="col-sm-6">
+            <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="/img/project3.jpg" alt="spam.js">
+        </div>
+    </div>
+
+- name: Spain Municipal Election Results
+  client: <a href="http://www.elespanol.com">EL ESPAÑOL</a>
+  page: /spain-general-election-results/
+  url: http://datos.elespanol.com/elecciones-generales/resultados/congreso
+  date: 20th May 2015
   description: >
     Custom web app for <a href="http://www.elespanol.com">EL ESPAÑOL</a> to host the live results of the Spain general elections. <br />
     We iterated on the map design and a simple interface.
