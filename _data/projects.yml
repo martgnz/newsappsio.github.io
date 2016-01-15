@@ -1,11 +1,33 @@
-- name: spam.js
-  client: <a href="https://github.com/newsappsio/spam">Open source</a>
-  code: newsappsio/spam
-  date: 24th December 2015
+- name: Spain General Election Results
+  client: <a href="http://www.elespanol.com">EL ESPAÑOL</a>
+  page: /spain-general-election-results/
+  url: http://datos.elespanol.com/elecciones-generales/resultados/congreso
+  date: 20th December 2015
   separator: true
   description: >
-    Unleash the cartographical power of D3. <br />
-    Create complex maps within minutes with SVG and canvas.
+    Carefully designed, this is our best newsapp to date. <br />
+    <i>Stack: d3.js, Canvas, Protobuf, TopoJSON and Bootstrap.</i>
+  showcase: >
+    <div class="row collage">
+        <div class="col-sm-12">
+            <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="/img/project3.jpg" alt="spam.js">
+        </div>
+        <div class="col-sm-6">
+            <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="/img/project1.jpg" alt="spam.js">
+        </div>
+        <div class="col-sm-6">
+            <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="/img/project3.jpg" alt="spam.js">
+        </div>
+    </div>
+
+- name: Catalan Election Results
+  client: <a href="http://www.elespanol.com">EL ESPAÑOL</a>
+  url: http://resultados27s.elespanol.com/
+  date: 27th September 2015
+  separator: true
+  description: >
+    A change on the rendering code allowed us to make a more detailed map. <br />
+    <i>Stack: d3.js, Canvas, TopoJSON and Bootstrap.</i>
   showcase: >
     <div class="row collage">
         <div class="col-sm-8">
@@ -21,64 +43,13 @@
         </div>
     </div>
 
-- name: Spain General Election Results
+- name: Spain Local Election Results
   client: <a href="http://www.elespanol.com">EL ESPAÑOL</a>
-  page: /spain-general-election-results/
-  url: http://datos.elespanol.com/elecciones-generales/resultados/congreso
-  date: 20th December 2015
-  separator: true
-  description: >
-    Custom web app for <a href="http://www.elespanol.com">EL ESPAÑOL</a> to host the live results of the Spain general elections. <br />
-    We iterated on the map design and a simple interface.
-  showcase: >
-    <div class="row collage">
-        <div class="col-sm-6">
-            <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="/img/project3.jpg" alt="spam.js">
-        </div>
-        <div class="col-sm-6">
-            <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="/img/project2.jpg" alt="spam.js">
-        </div>
-        <div class="col-sm-6">
-            <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="/img/project1.jpg" alt="spam.js">
-        </div>
-        <div class="col-sm-6">
-            <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="/img/project3.jpg" alt="spam.js">
-        </div>
-    </div>
-
-- name: Catalan Election Results
-  client: <a href="http://www.elespanol.com">EL ESPAÑOL</a>
-  page: /spain-general-election-results/
-  url: http://datos.elespanol.com/elecciones-generales/resultados/congreso
-  date: 27th September 2015
-  separator: true
-  description: >
-    Custom web app for <a href="http://www.elespanol.com">EL ESPAÑOL</a> to host the live results of the Spain general elections. <br />
-    We iterated on the map design and a simple interface.
-  showcase: >
-    <div class="row collage">
-        <div class="col-sm-6">
-            <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="/img/project3.jpg" alt="spam.js">
-        </div>
-        <div class="col-sm-6">
-            <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="/img/project2.jpg" alt="spam.js">
-        </div>
-        <div class="col-sm-6">
-            <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="/img/project1.jpg" alt="spam.js">
-        </div>
-        <div class="col-sm-6">
-            <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="/img/project3.jpg" alt="spam.js">
-        </div>
-    </div>
-
-- name: Spain Municipal Election Results
-  client: <a href="http://www.elespanol.com">EL ESPAÑOL</a>
-  page: /spain-general-election-results/
-  url: http://datos.elespanol.com/elecciones-generales/resultados/congreso
+  url: http://resultados24m.elespanol.com/
   date: 20th May 2015
   description: >
-    Custom web app for <a href="http://www.elespanol.com">EL ESPAÑOL</a> to host the live results of the Spain general elections. <br />
-    We iterated on the map design and a simple interface.
+    We wanted to change the look of the Spanish elections. And we got 150.000<span class="plus">+</span> visits. <br />
+    <i>Stack: d3.js, SVG, TopoJSON and Bootstrap.</i>
   showcase: >
     <div class="row collage">
         <div class="col-sm-6">
