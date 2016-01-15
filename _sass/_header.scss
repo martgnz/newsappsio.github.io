@@ -4,6 +4,7 @@
     border-radius: 0;
     padding: 2rem;
     padding-top: 1rem;
+    padding-bottom: 1rem;
     margin-bottom: 0;
     border-top: 3px solid $brand-primary;
     text-align: center;
@@ -18,7 +19,7 @@
     font-family: $font-system;
 }
 .contactLink {
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 300;
     color: $brand-primary;
 }

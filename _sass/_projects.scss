@@ -41,14 +41,16 @@
 .svg--code {
     margin-right: 0.5rem;
 }
-.svg--page {
-    margin-right: 0.2rem;
-}
 .svgButton--page,
 .svgButton--url,
 .svgButton--code {
-    vertical-align: sub;
+    vertical-align: text-top;
+    margin-top: 0.1rem;
     height: 1rem;
+}
+.svg--page {
+    height: 1rem;
+    margin-right: 0.2rem;
 }
 .martgnz a:nth-child(3) svg {
     margin-left: 0.3rem;
