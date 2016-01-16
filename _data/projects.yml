@@ -9,13 +9,13 @@
   showcase: >
     <div class="row collage">
         <div class="col-sm-12">
-            <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="/img/touchdown_1.png" alt="spam.js">
+            <img class="img-fluid projectImg m-b-1" data-src="/img/touchdown_1.png" alt="spam.js">
         </div>
         <div class="col-sm-6">
-            <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="/img/touchdown_2.png" alt="spam.js">
+            <img class="img-fluid projectImg m-b-1" data-src="/img/touchdown_2.png" alt="spam.js">
         </div>
         <div class="col-sm-6">
-            <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="/img/touchdown_3.png" alt="spam.js">
+            <img class="img-fluid projectImg m-b-1" data-src="/img/touchdown_3.png" alt="spam.js">
         </div>
     </div>
 
@@ -30,14 +30,14 @@
   showcase: >
     <div class="row collage">
         <div class="col-sm-8">
-            <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="/img/project3.jpg" alt="spam.js">
+            <img class="img-fluid projectImg m-b-1" data-src="/img/lolcat_1.png" alt="spam.js">
         </div>
         <div class="col-sm-4 u-zeroPadding">
             <div class="col-xs-12">
-                <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="/img/project2.jpg" alt="spam.js"">
+                <img class="img-fluid projectImg m-b-1" data-src="/img/lolcat_2.png" alt="spam.js"">
             </div>
             <div class="col-xs-12">
-                <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="/img/project1.jpg" alt="spam.js"">
+                <img class="img-fluid projectImg m-b-1" data-src="/img/lolcat_3.png" alt="spam.js"">
             </div>
         </div>
     </div>
@@ -52,15 +52,15 @@
   showcase: >
     <div class="row collage">
         <div class="col-sm-6">
-            <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="/img/project3.jpg" alt="spam.js">
+            <img class="img-fluid projectImg m-b-1" data-src="/img/project3.jpg" alt="spam.js">
         </div>
         <div class="col-sm-6">
-            <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="/img/project2.jpg" alt="spam.js">
+            <img class="img-fluid projectImg m-b-1" data-src="/img/project2.jpg" alt="spam.js">
         </div>
         <div class="col-sm-6">
-            <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="/img/project1.jpg" alt="spam.js">
+            <img class="img-fluid projectImg m-b-1" data-src="/img/project1.jpg" alt="spam.js">
         </div>
         <div class="col-sm-6">
-            <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="/img/project3.jpg" alt="spam.js">
+            <img class="img-fluid projectImg m-b-1" data-src="/img/project3.jpg" alt="spam.js">
         </div>
     </div>
