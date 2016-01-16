@@ -1,22 +1,21 @@
 - name: Spain General Election Results
   client: <a href="http://www.elespanol.com">EL ESPAÑOL</a>
-  page: /spain-general-election-results/
   url: http://datos.elespanol.com/elecciones-generales/resultados/congreso
   date: 20th December 2015
   separator: true
   description: >
-    Carefully designed, we integrated labels and highways on the map. <br />
+    Carefully designed map for the Spanish General Election. <br />
     <i>Stack: d3.js, Canvas, Protobuf, TopoJSON and Bootstrap.</i>
   showcase: >
     <div class="row collage">
         <div class="col-sm-12">
-            <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="/img/project3.jpg" alt="spam.js">
+            <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="/img/touchdown_1.png" alt="spam.js">
         </div>
         <div class="col-sm-6">
-            <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="/img/project1.jpg" alt="spam.js">
+            <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="/img/touchdown_2.png" alt="spam.js">
         </div>
         <div class="col-sm-6">
-            <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="/img/project3.jpg" alt="spam.js">
+            <img class="img-fluid projectImg m-b-1" data-action="zoom" data-src="/img/touchdown_3.png" alt="spam.js">
         </div>
     </div>
 
@@ -48,7 +47,7 @@
   url: http://resultados24m.elespanol.com/
   date: 20th May 2015
   description: >
-    We wanted to change the look of the Spanish elections. And we got 150.000<span class="plus">+</span> visits. <br />
+    We wanted to change the look of the Spanish elections. We got 150.000<span class="plus">+</span> visits. <br />
     <i>Stack: d3.js, SVG, TopoJSON and Bootstrap.</i>
   showcase: >
     <div class="row collage">
