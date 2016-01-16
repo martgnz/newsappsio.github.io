@@ -2,8 +2,11 @@
     <div class="col-md-12">
         <a href="/" role="banner"><h1 class="header--banner">newsapps.io</h1></a>
         <nav class="pull-sm-right contact">
-            <a class="contactLink" href="https://blog.newsapps.io">blog</a> /
-            <a class="contactLink" href="mailto:hello@newsapps.io">email</a>
+            {% for link in site.data.links %}
+                <a class="contactLink" href="{{ link.github }}">GitHub</a> /
+                <a class="contactLink" href="{{ link.blog }}">blog</a> /
+                <a class="contactLink" href="{{ link.email }}">email</a>
+            {% endfor %}
         </nav>
     </div>
 </header>

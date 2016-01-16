@@ -1,12 +1,12 @@
 - name: Lukas Appelhans
-  twitter: lukas_appelhans
-  img: /img/cat.png
-  email: lukas@appelhans.me
+  twitter: https://twitter.com/lukas_appelhans
+  img: /img/cat.jpg
+  email: mailto:lukas@appelhans.me
   description: On-residence Javascript kitty.
 
 - name: Martín González
-  twitter: martgnz
-  img: /img/shibe2.jpg
-  email: m@martingonzalez.net
+  twitter: https://twitter.com/martgnz
+  img: /img/doge.png
+  email: mailto:m@martingonzalez.net
   website: https://martingonzalez.net
   description: On-residence Journalist doge.

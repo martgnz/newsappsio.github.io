@@ -4,18 +4,21 @@
   date: 20th December 2015
   separator: true
   description: >
-    Carefully designed map for the Spanish General Election. <br />
+    Newsapp for the Spanish General Election. <br />
     <i>Stack: d3.js, Canvas, Protobuf, TopoJSON and Bootstrap.</i>
   showcase: >
     <div class="row collage">
-        <div class="col-sm-12">
+        <div class="col-xs-6 col-sm-3">
             <img class="img-fluid projectImg m-b-1" data-src="/img/touchdown_1.png" alt="spam.js">
         </div>
-        <div class="col-sm-6">
+        <div class="col-xs-6 col-sm-3">
             <img class="img-fluid projectImg m-b-1" data-src="/img/touchdown_2.png" alt="spam.js">
         </div>
-        <div class="col-sm-6">
+        <div class="col-xs-6 col-sm-3">
             <img class="img-fluid projectImg m-b-1" data-src="/img/touchdown_3.png" alt="spam.js">
+        </div>
+        <div class="col-xs-6 col-sm-3">
+            <img class="img-fluid projectImg m-b-1" data-src="/img/touchdown_4.png" alt="spam.js">
         </div>
     </div>
 
@@ -25,7 +28,7 @@
   date: 27th September 2015
   separator: true
   description: >
-    A change on the rendering code allowed us to make a more detailed map. <br />
+    Our first Canvas-based map. <br />
     <i>Stack: d3.js, Canvas, TopoJSON and Bootstrap.</i>
   showcase: >
     <div class="row collage">

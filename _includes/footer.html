@@ -1,4 +1,10 @@
 <footer class="footer">
     <small class="footer--text">&copy; 2016</small>
-    <p class="footer--text"><a href="https://github.com/newsappsio">GitHub</a> | <a href="mailto:hello@newsapps.io">email</a></p>
+    {% for link in site.data.links %}
+        <p class="footer--text">
+            <a href="{{ link.github }}">GitHub</a> /
+            <a href="{{ link.blog }}">blog</a> /
+            <a href="{{ link.email }}">email</a>
+        </p>
+    {% endfor %}
 </footer>

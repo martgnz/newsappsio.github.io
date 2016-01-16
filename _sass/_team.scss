@@ -1,3 +1,5 @@
+@import "variables";
+
 .col-centered-team {
     display:inline-block;
     float:none;
@@ -5,4 +7,7 @@
     text-align:center;
     /* inline-block space fix */
     margin-right:-4px;
+}
+.memberWebsite--url {
+    margin-right: 0.2rem;
 }
