@@ -52,15 +52,12 @@
   showcase: >
     <div class="row collage">
         <div class="col-sm-6">
-            <img class="img-fluid projectImg m-b-1" data-src="/img/project3.jpg" alt="spam.js">
+            <img class="img-fluid projectImg m-b-1" data-src="/img/elvis_2.png" alt="spam.js">
         </div>
         <div class="col-sm-6">
-            <img class="img-fluid projectImg m-b-1" data-src="/img/project2.jpg" alt="spam.js">
+            <img class="img-fluid projectImg m-b-1" data-src="/img/elvis_3.png" alt="spam.js">
         </div>
         <div class="col-sm-6">
-            <img class="img-fluid projectImg m-b-1" data-src="/img/project1.jpg" alt="spam.js">
-        </div>
-        <div class="col-sm-6">
-            <img class="img-fluid projectImg m-b-1" data-src="/img/project3.jpg" alt="spam.js">
+            <img class="img-fluid projectImg m-b-1" data-src="/img/elvis_1.png" alt="spam.js">
         </div>
     </div>
