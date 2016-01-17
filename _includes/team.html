@@ -5,7 +5,7 @@
         </div>
         {% for member in site.data.team %}
         <div class="col-xs-6 col-md-3 col-centered-team member m-b-3 {{ member.twitter }}">
-            <img class="img-fluid memberImg m-b-1 img-circle" data-src="{{ member.img }}" alt="{{ member.name }}">
+            <img class="img-fluid memberImg m-b-1" data-src="{{ member.img }}" alt="{{ member.name }}">
             <h4 class="memberTitle">{{ member.name }}</h4>
             <p class="text-xs-center memberDescription">{{ member.description }}</p>
             <div class="text-xs-center">
