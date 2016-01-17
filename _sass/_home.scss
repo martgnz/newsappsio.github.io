@@ -41,6 +41,10 @@ img {
     list-style: none;
     padding: 0;
 }
+::selection {
+    background-color: $brand-primary;
+    color: $primary-white;
+}
 
 // Medium devices (tablets, 48em and up)
 @media (min-width: $sm) {
