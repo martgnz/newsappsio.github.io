@@ -20,6 +20,10 @@
     color: $primary-white;
     border-color: $primary-white;
 }
+.svg--contact {
+    height: 1.2rem;
+    vertical-align: text-top;
+}
 
 // Medium devices (tablets, 48em and up)
 @media (min-width: $sm) {

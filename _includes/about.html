@@ -3,7 +3,11 @@
         <h2 class="interactiveAbout--headline">We are a small studio specialized in interactive storytelling.</h2>
         <h2 class="interactiveAbout--headline m-b-2">Visualize your data with hand-crafted web apps <i>&</i> beautiful maps.</h2>
         {% for link in site.data.links %}
-            <a href="{{ link.email }}" type="button" class="btn btn-primary-outline btn-contact">Contact us</a>
+            <a href="{{ link.email }}" type="button" class="btn btn-primary-outline btn-contact">
+                <svg class="svg--contact" viewBox="0 0 32 32" style="fill:currentcolor">
+                    <path d="M2 18 L30 2 L14 30 L14 18z"></path>
+                </svg>
+                Contact us</a>
         {% endfor %}
     </div>
 </section>
