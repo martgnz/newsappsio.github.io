@@ -4,7 +4,7 @@
   date: 20th December 2015
   separator: true
   description: >
-    Custom newsapp for the Spanish General Election, integrating cities and roads. <br />
+    Custom newsapp for the Spanish General Election, integrating labels and roads. <br />
     <i>Stack: d3.js, Canvas, Protobuf, TopoJSON, SASS and Bootstrap.</i>
   showcase: >
     <div class="row collage">
