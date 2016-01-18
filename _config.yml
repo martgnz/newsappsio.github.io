@@ -1,12 +1,12 @@
 # Site settings
 title: newsapps.io — Small studio specialized in interactive storytelling.
-email: hello@newsapps.io
+email: wassap@newsapps.io
 description: > # this means to ignore newlines until "baseurl:"
   We are a small studio specialized in interactive storytelling.
   Visualize your data with hand-crafted web apps & beautiful maps.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://newsapps.io" # the base hostname & protocol for your site
-twitter_username: newsapps_io
+twitter_username: newsappsio
 github_username:  newsappsio
 
 # Build settings
