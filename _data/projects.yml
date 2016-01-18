@@ -4,8 +4,8 @@
   date: 20th December 2015
   separator: true
   description: >
-    Newsapp for the Spanish General Election. <br />
-    <i>Stack: d3.js, Canvas, Protobuf, TopoJSON and Bootstrap.</i>
+    Custom newsapp for the Spanish General Election, integrating cities and roads. <br />
+    <i>Stack: d3.js, Canvas, Protobuf, TopoJSON, SASS and Bootstrap.</i>
   showcase: >
     <div class="row collage">
         <div class="col-xs-6 col-sm-3">
@@ -28,8 +28,8 @@
   date: 27th September 2015
   separator: true
   description: >
-    Our first Canvas-based map. <br />
-    <i>Stack: d3.js, Canvas, TopoJSON and Bootstrap.</i>
+    The Catalan Election newsapp featured an improved design plus a solid rendering engine. <br />
+    <i>Stack: d3.js, Canvas, TopoJSON, SASS and Bootstrap.</i>
   showcase: >
     <div class="row collage">
         <div class="col-sm-8">
@@ -45,19 +45,19 @@
         </div>
     </div>
 
-- name: Spain Local Election Results
+- name: Spain Local & Regional Election Results
   client: <a href="http://www.elespanol.com">EL ESPAÑOL</a>
   url: http://resultados24m.elespanol.com/
   date: 20th May 2015
   description: >
-    We wanted to change the look of the Spanish elections. We got 150.000<span class="plus">+</span> visits. <br />
-    <i>Stack: d3.js, SVG, TopoJSON and Bootstrap.</i>
+    Our first newsapp, that includes local and regional elections, got more than 150.000<span class="plus">+</span> visits. <br />
+    <i>Stack: d3.js, SVG, TopoJSON, SASS and Bootstrap.</i>
   showcase: >
     <div class="row collage">
-        <div class="col-sm-3">
+        <div class="col-sm-3 col-xs-6">
             <img class="img-fluid projectImg m-b-1" data-src="/img/elvis_2.png" alt="spam.js">
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-3 col-xs-6">
             <img class="img-fluid projectImg m-b-1" data-src="/img/elvis_3.png" alt="spam.js">
         </div>
         <div class="col-sm-6">
