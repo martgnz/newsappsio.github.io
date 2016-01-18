@@ -8,6 +8,8 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://newsapps.io" # the base hostname & protocol for your site
 twitter_username: newsappsio
 github_username:  newsappsio
+img: https://newsapps.io/img/touchdown_4.png
+authors: Martín González, Lukas Appelhans
 
 # Build settings
 markdown: kramdown
