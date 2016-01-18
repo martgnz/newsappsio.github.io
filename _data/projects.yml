@@ -54,10 +54,10 @@
     <i>Stack: d3.js, SVG, TopoJSON and Bootstrap.</i>
   showcase: >
     <div class="row collage">
-        <div class="col-sm-6">
+        <div class="col-sm-3">
             <img class="img-fluid projectImg m-b-1" data-src="/img/elvis_2.png" alt="spam.js">
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-3">
             <img class="img-fluid projectImg m-b-1" data-src="/img/elvis_3.png" alt="spam.js">
         </div>
         <div class="col-sm-6">
