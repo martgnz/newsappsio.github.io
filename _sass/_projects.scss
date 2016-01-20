@@ -23,6 +23,19 @@
 .projectTitle {
     margin-bottom: 0;
 }
+.projectImg {
+    border-radius: 2px;
+    box-shadow: 0 1px 10px rgba(0,0,0,.3);
+    transition: 0.2s;
+    cursor: pointer;
+}
+.projectImg:hover {
+    transform: scale(1.05);
+    box-shadow: 0 1px 20px rgba(0,0,0,.4);
+    transition: 0.2s;
+}
+.btn-primary-outline {
+}
 .projectMeta {
     text-align: left;
     margin-bottom: 0.5rem;
