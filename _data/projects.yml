@@ -9,16 +9,16 @@
   showcase: >
     <div class="row collage">
         <div class="col-xs-6 col-sm-3">
-            <img class="img-fluid projectImg m-b-1" data-src="/img/touchdown_1.png" alt="spam.js">
+            <img class="img-fluid projectImg m-b-1" data-src="/img/touchdown_1.png" alt="Spain General Election Results">
         </div>
         <div class="col-xs-6 col-sm-3">
-            <img class="img-fluid projectImg m-b-1" data-src="/img/touchdown_2.png" alt="spam.js">
+            <img class="img-fluid projectImg m-b-1" data-src="/img/touchdown_2.png" alt="Spain General Election Results">
         </div>
         <div class="col-xs-6 col-sm-3">
-            <img class="img-fluid projectImg m-b-1" data-src="/img/touchdown_3.png" alt="spam.js">
+            <img class="img-fluid projectImg m-b-1" data-src="/img/touchdown_3.png" alt="Spain General Election Results">
         </div>
         <div class="col-xs-6 col-sm-3">
-            <img class="img-fluid projectImg m-b-1" data-src="/img/touchdown_4.png" alt="spam.js">
+            <img class="img-fluid projectImg m-b-1" data-src="/img/touchdown_4.png" alt="Spain General Election Results">
         </div>
     </div>
 
@@ -33,14 +33,14 @@
   showcase: >
     <div class="row collage">
         <div class="col-sm-8">
-            <img class="img-fluid projectImg m-b-1" data-src="/img/lolcat_1.png" alt="spam.js">
+            <img class="img-fluid projectImg m-b-1" data-src="/img/lolcat_1.png" alt="Catalan Election Results">
         </div>
         <div class="col-sm-4 u-zeroPadding">
             <div class="col-xs-12">
-                <img class="img-fluid projectImg m-b-1" data-src="/img/lolcat_2.png" alt="spam.js"">
+                <img class="img-fluid projectImg m-b-1" data-src="/img/lolcat_2.png" alt="Catalan Election Results"">
             </div>
             <div class="col-xs-12">
-                <img class="img-fluid projectImg m-b-1" data-src="/img/lolcat_3.png" alt="spam.js"">
+                <img class="img-fluid projectImg m-b-1" data-src="/img/lolcat_3.png" alt="Catalan Election Results"">
             </div>
         </div>
     </div>
@@ -55,12 +55,12 @@
   showcase: >
     <div class="row collage">
         <div class="col-sm-3 col-xs-6">
-            <img class="img-fluid projectImg m-b-1" data-src="/img/elvis_2.png" alt="spam.js">
+            <img class="img-fluid projectImg m-b-1" data-src="/img/elvis_2.png" alt="Spain Local & Regional Election Results">
         </div>
         <div class="col-sm-3 col-xs-6">
-            <img class="img-fluid projectImg m-b-1" data-src="/img/elvis_3.png" alt="spam.js">
+            <img class="img-fluid projectImg m-b-1" data-src="/img/elvis_3.png" alt="Spain Local & Regional Election Results">
         </div>
         <div class="col-sm-6">
-            <img class="img-fluid projectImg m-b-1" data-src="/img/elvis_1.png" alt="spam.js">
+            <img class="img-fluid projectImg m-b-1" data-src="/img/elvis_1.png" alt="Spain Local & Regional Election Results">
         </div>
     </div>
