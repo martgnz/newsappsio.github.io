@@ -50,7 +50,7 @@
   url: http://resultados24m.elespanol.com/
   date: 20th May 2015
   description: >
-    Our first newsapp, that includes local and regional elections, got more than 150.000<span class="plus">+</span> visits. <br />
+    Our first newsapp, including local and regional elections, got more than 150.000<span class="plus">+</span> visits. <br />
     <i>Stack: d3.js, SVG, TopoJSON, SASS and Bootstrap.</i>
   showcase: >
     <div class="row collage">
