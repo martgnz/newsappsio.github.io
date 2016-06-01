@@ -1,3 +1,24 @@
+- name: "spam: Easy maps with Canvas and D3"
+  client: Open source
+  url: https://github.com/newsappsio/spam
+  date: 3rd May 2016
+  separator: true
+  description: >
+    Library for making Canvas-based maps with D3. <br />Supports static and zoomable maps, custom projections and multiple layers.
+  showcase: >
+   <div class="row collage">
+        <div class="col-sm-3 col-xs-6">
+            <img class="img-fluid m-b-1" data-src="/img/spam_1.png" alt="Spain Local & Regional Election Results">
+        </div>
+        <div class="col-sm-3 col-xs-6">
+            <img class="img-fluid m-b-1" data-src="/img/spam_3.png" alt="Spain Local & Regional Election Results">
+        </div>
+        <div class="col-sm-6">
+            <img class="img-fluid m-b-1" data-src="/img/spam.png" alt="Spain Local & Regional Election Results">
+        </div>
+    </div>
+
+
 - name: Spain General Election Results
   client: <a href="http://www.elespanol.com">EL ESPAÑOL</a>
   url: http://datos.elespanol.com/elecciones-generales/resultados/congreso
